@@ -1,0 +1,139 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#nav{
+    /* border: 2px solid; */
+    height: 80px;
+    position: sticky;
+    top: 0%;
+}
+#subnav{
+    /* border: 2px solid; */
+    height: inherit;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#centre>ol{
+    list-style: none;
+    width: 550px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+#left>ol>li>i{
+    font-size: 22px;
+}
+#left>ol{
+    list-style: none;
+    width: 150px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+#centre1>i{
+    position: relative;
+    left: 23px;
+}
+#b{
+    /* border: 2px solid; */
+    height: 50px;
+}
+#sb{
+    /* border: 2px solid; */
+    height: inherit;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#r>ol{
+    list-style: none;
+    width: 250px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+#c>h1{
+    font-size: 30px;
+    font-weight: 200;
+}
+#b1{
+    /* border: 2px solid; */
+    height: 50px;
+}
+#sb1{
+     /* border: 2px solid; */
+     height: inherit;
+     width: 90%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+#sr>ol{
+    list-style: none;
+    width: 1000px;
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 19px;
+    font-weight: lighter;
+}
+#subbody{
+    /* border: 2px solid; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#div>ol{
+    /* border: 2px solid; */
+    width: 87%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 10px;
+    visibility: hidden;
+}
+#rrr>ol{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 10px;
+    visibility: hidden;
+    line-height: 40px;
+}
+#id{
+    /* border: 2px solid; */
+    height: 700px;
+    width: 100%;
+    background-color: #ffff;
+    position:absolute;
+    top: 80px;
+    visibility: hidden;
+}
+.but,.but1,.but2{
+    padding: 10px 20px;
+    font-size:15px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px black;
+    background-color: hsl(350, 69%, 64%);
+    color: #fff;
+    cursor: pointer;
+}
